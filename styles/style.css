@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+    color: greenyellow;
+    font-family: monospace;
+}
+
+.nav_button {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    display: inline-flex;
+}
+.nav_button:hover {
+    background-color: black;
+    color: greenyellow;
+}
+nav {
+    width: 100%;
+    background-color: black;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ascii_art {
+    align-self: end;
+    font-size: 5px;
+    color: greenyellow;
+    background-color: black;
+    font-family: monospace;
+}
+a {
+    color: greenyellow;
+}
+.home_info {
+    padding-left: 2%;
+}
