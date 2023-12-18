@@ -1,0 +1,15 @@
+.hotspot-list {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1;
+}
+.hotspot-item {
+    color: white;
+    padding: 15px;
+}
+.hotspot-title {
+    font-size: large;
+}
+.hotspot-content-preview {
+    font-size: medium;
+}

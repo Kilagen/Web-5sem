@@ -7,26 +7,45 @@ body {
     font-family: monospace;
 }
 
-.nav_button {
-    color: black;
-    background-color: white;
-    padding: 10px;
-    margin: 0;
-    text-decoration: none;
-    display: inline-flex;
-}
-.nav_button:hover {
-    background-color: black;
-    color: greenyellow;
-}
 nav {
     width: 100%;
+    overflow: auto;
     background-color: black;
     margin: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.ascii_art {
+
+footer {
+    margin: 5%;
+}
+
+.nav-button {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    width: max-content;
+    margin: 0;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: x-large;
+}
+.nav-button:hover {
+    filter: invert();
+    /*box-shadow: 0 0 1px 2px #513B56;*/
+}
+.nav-icon {
+    width: 25px;
+    height: 25px;
+
+    margin: 5px;
+    left: 2px;
+}
+.nav-desc {
+    margin: 5px;
+    left: 2px;
+}
+.ascii-art {
     align-self: end;
     font-size: 5px;
     color: greenyellow;
@@ -36,6 +55,13 @@ nav {
 a {
     color: greenyellow;
 }
-.home_info {
+.chatgpt-poem {
     padding-left: 2%;
+    white-space: pre-line;
+}
+.chatgpt-poem {
+    font-size: 14px;
+}
+.main-content {
+    display: flex;
 }
