@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: grey;
+}
+
+tr:nth-child(2n) {
+    background-color: #141414;
+}
+
+tr:hover {
+    background-color: grey;
+}
+
+.dataset-table {
+
+}
+
+.dataset-table-header {
+
+}
+
+.dataset-table-content {
+
+}
+
+.dataset-table-row {
+
+}
+
+.dataset-row-description {
+
+}
+
+.dataset-row-title {
+
+}
+
+.dataset-row-downloads {
+
+}
+
+.dataset-row-title {
+
+}
+
+.dataset-cell {
+
+}

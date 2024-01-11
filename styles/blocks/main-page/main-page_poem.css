@@ -1,0 +1,14 @@
+.chatgpt-poem {
+    padding-left: 2%;
+    white-space: pre-line;
+}
+.chatgpt-poem {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+    .chatgpt-poem {
+        display: none;
+    }
+
+}

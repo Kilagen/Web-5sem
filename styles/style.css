@@ -5,46 +5,22 @@ body {
     background-color: black;
     color: greenyellow;
     font-family: monospace;
-}
-
-nav {
-    width: 100%;
-    overflow: auto;
-    background-color: black;
-    margin: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    min-height: 100vh;
+    position: relative;
+    max-width: 1920px;
 }
 
 footer {
-    margin: 5%;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    margin: 1%;
 }
 
-.nav-button {
-    color: black;
-    background-color: white;
-    padding: 10px;
-    width: max-content;
-    margin: 0;
-    text-decoration: none;
-    display: inline-flex;
-    font-size: x-large;
+main {
+    padding-bottom: 100px;
 }
-.nav-button:hover {
-    filter: invert();
-    /*box-shadow: 0 0 1px 2px #513B56;*/
-}
-.nav-icon {
-    width: 25px;
-    height: 25px;
 
-    margin: 5px;
-    left: 2px;
-}
-.nav-desc {
-    margin: 5px;
-    left: 2px;
-}
 .ascii-art {
     align-self: end;
     font-size: 5px;
@@ -52,16 +28,11 @@ footer {
     background-color: black;
     font-family: monospace;
 }
+
 a {
     color: greenyellow;
 }
-.chatgpt-poem {
-    padding-left: 2%;
-    white-space: pre-line;
-}
-.chatgpt-poem {
-    font-size: 14px;
-}
+
 .main-content {
     display: flex;
 }

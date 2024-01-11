@@ -4,12 +4,27 @@
     flex: 1 1;
 }
 .hotspot-item {
+    display: flex;
+    flex-flow: row;
+}
+.hotspot-text {
     color: white;
     padding: 15px;
 }
+.hotspot-image {
+    height: 150px;
+    width: auto;
+}
+
 .hotspot-title {
     font-size: large;
 }
 .hotspot-content-preview {
     font-size: medium;
+}
+
+@media screen and (max-width: 800px) {
+    .hotspot-image {
+        display: none;
+    }
 }

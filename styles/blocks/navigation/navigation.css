@@ -1,0 +1,49 @@
+nav {
+    width: 100%;
+    overflow: auto;
+    background-color: black;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-button {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    width: max-content;
+    margin: 0;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: x-large;
+}
+.nav-button:hover {
+    filter: invert();
+    /*box-shadow: 0 0 1px 2px #513B56;*/
+}
+
+.nav-button-chosen {
+    filter: invert();
+}
+
+.nav-button-chosen:hover {
+    filter: invert();
+}
+
+.nav-icon {
+    width: 25px;
+    height: 25px;
+
+    margin: 5px;
+    left: 2px;
+}
+.nav-desc {
+    margin: 5px;
+    left: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-desc {
+        display: none;
+    }
+}

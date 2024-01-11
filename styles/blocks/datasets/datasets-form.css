@@ -1,0 +1,49 @@
+.dataset-form {
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+}
+.dataset-form_input-file {
+    background-color: black;
+    color: greenyellow;
+    border-color: greenyellow;
+    font-family: monospace;
+}
+
+input::file-selector-button {
+    background-color: black;
+    color: greenyellow;
+    border-color: greenyellow;
+    font-family: monospace;
+}
+
+input::file-selector-button:hover {
+    color: white;
+    border-color: white;
+}
+
+.dataset-form_input-title {
+    width: 100%;
+}
+
+.dataset-form_input-description {
+    width: 100%;
+    height: 60px;
+}
+
+.dataset-form_submit-button {
+    background-color: black;
+    color: greenyellow;
+    border-color: greenyellow;
+    font-family: monospace;
+}
+
+.dataset-form_submit-button:hover {
+    color: white;
+    border-color: white;
+}
+
+fieldset {
+    border-color: greenyellow;
+    margin: 15px;
+}
